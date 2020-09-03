@@ -1,4 +1,4 @@
-package com.harish.rest.microservices.restfulwebservices;
+package com.harish.rest.microservices.model;
 
 public class Test {
 

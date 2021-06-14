@@ -1,0 +1,674 @@
+2021-06-10 08:44:37.956  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 14528 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 08:44:37.993  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 08:44:38.163  INFO 14528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-10 08:44:38.165  INFO 14528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-10 08:44:41.132  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 08:44:41.158  INFO 14528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 08:44:41.159  INFO 14528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 08:44:41.385  INFO 14528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 08:44:41.386  INFO 14528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3218 ms
+2021-06-10 08:44:42.000  INFO 14528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-06-10 08:44:42.121  INFO 14528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 08:44:42.190  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 08:44:42.201  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 6.129 seconds (JVM running for 7.908)
+2021-06-10 08:44:42.203  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 08:44:42.205  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 08:44:47.241  INFO 14528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 08:44:47.245  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 08:44:47.249  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-06-10 08:45:27.676  INFO 14528 --- [Thread-6] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 08:47:40.631  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 14528 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 08:47:40.631  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 08:47:40.920  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 08:47:40.921  INFO 14528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 08:47:40.922  INFO 14528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 08:47:40.943  INFO 14528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 08:47:40.943  INFO 14528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 308 ms
+2021-06-10 08:47:40.996  INFO 14528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-06-10 08:47:41.021  INFO 14528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 08:47:41.034  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 08:47:41.036  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.455 seconds (JVM running for 186.744)
+2021-06-10 08:47:41.037  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 08:47:41.038  INFO 14528 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 08:47:41.039  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 08:49:23.804  INFO 14528 --- [Thread-9] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 08:49:24.288  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 14528 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 08:49:24.288  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 08:49:24.473  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 08:49:24.474  INFO 14528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 08:49:24.474  INFO 14528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 08:49:24.493  INFO 14528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 08:49:24.494  INFO 14528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 203 ms
+2021-06-10 08:49:24.546  INFO 14528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-06-10 08:49:24.566  INFO 14528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 08:49:24.579  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 08:49:24.582  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.348 seconds (JVM running for 290.289)
+2021-06-10 08:49:24.582  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 08:49:24.582  INFO 14528 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 08:49:24.583  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 08:51:08.314  INFO 14528 --- [Thread-16] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 08:51:08.898  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 14528 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 08:51:08.900  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 08:51:09.079  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 08:51:09.079  INFO 14528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 08:51:09.079  INFO 14528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 08:51:09.097  INFO 14528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 08:51:09.099  INFO 14528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 197 ms
+2021-06-10 08:51:09.104  WARN 14528 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'helloGreeting' defined in file [C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes\com\harish\rest\microservices\GreetingApp\HelloGreeting.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.harish.rest.microservices.GreetingApp.HelloGreeting]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "Component", ; expected after this token
+
+2021-06-10 08:51:09.105  INFO 14528 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-06-10 08:51:09.111  INFO 14528 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-10 08:51:09.208 ERROR 14528 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'helloGreeting' defined in file [C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes\com\harish\rest\microservices\GreetingApp\HelloGreeting.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.harish.rest.microservices.GreetingApp.HelloGreeting]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "Component", ; expected after this token
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1316) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325) ~[spring-boot-2.5.0.jar:2.5.0]
+	at com.harish.rest.microservices.GreetingApp.GreetingAppApplication.main(GreetingAppApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.0.jar:2.5.0]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.harish.rest.microservices.GreetingApp.HelloGreeting]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "Component", ; expected after this token
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308) ~[spring-beans-5.3.7.jar:5.3.7]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "Component", ; expected after this token
+
+	at com.harish.rest.microservices.GreetingApp.HelloGreeting.<init>(HelloGreeting.java:5) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212) ~[spring-beans-5.3.7.jar:5.3.7]
+	... 24 common frames omitted
+
+2021-06-10 08:51:15.920  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 14528 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 08:51:15.921  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 08:51:16.154  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 08:51:16.154  INFO 14528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 08:51:16.155  INFO 14528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 08:51:16.174  INFO 14528 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-06-10 08:51:16.174  INFO 14528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 249 ms
+2021-06-10 08:51:16.223  INFO 14528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-06-10 08:51:16.241  INFO 14528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 08:51:16.254  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 08:51:16.256  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.408 seconds (JVM running for 401.963)
+2021-06-10 08:51:16.257  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 08:51:16.257  INFO 14528 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 08:51:16.257  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 08:51:25.964  INFO 14528 --- [Thread-21] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 08:51:26.670  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 14528 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 08:51:26.671  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 08:51:26.870  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 08:51:26.871  INFO 14528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 08:51:26.871  INFO 14528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 08:51:26.891  INFO 14528 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-06-10 08:51:26.892  INFO 14528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 218 ms
+2021-06-10 08:51:26.935  INFO 14528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-06-10 08:51:26.950  INFO 14528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 08:51:26.960  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 08:51:26.963  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.317 seconds (JVM running for 412.67)
+2021-06-10 08:51:26.964  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 08:51:26.964  INFO 14528 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 08:51:26.965  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 08:51:31.018  INFO 14528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 08:51:31.020  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 08:51:31.021  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-10 08:51:52.138  INFO 14528 --- [Thread-29] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 08:51:52.852  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 14528 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 08:51:52.853  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 08:51:53.035  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 08:51:53.036  INFO 14528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 08:51:53.036  INFO 14528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 08:51:53.055  INFO 14528 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-06-10 08:51:53.055  INFO 14528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 199 ms
+2021-06-10 08:51:53.087  INFO 14528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-06-10 08:51:53.105  INFO 14528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 08:51:53.118  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 08:51:53.122  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.3 seconds (JVM running for 438.829)
+2021-06-10 08:51:53.123  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 08:51:53.124  INFO 14528 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 08:51:53.124  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 08:51:56.592  INFO 14528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 08:51:56.594  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 08:51:56.595  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-10 08:54:27.300  INFO 14528 --- [Thread-34] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 08:54:28.129  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 14528 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 08:54:28.129  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 08:54:28.315  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 08:54:28.316  INFO 14528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 08:54:28.317  INFO 14528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 08:54:28.377  INFO 14528 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-06-10 08:54:28.377  INFO 14528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 245 ms
+2021-06-10 08:54:28.411  INFO 14528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-06-10 08:54:28.425  INFO 14528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 08:54:28.435  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 08:54:28.438  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.354 seconds (JVM running for 594.145)
+2021-06-10 08:54:28.438  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 08:54:28.438  INFO 14528 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 08:54:28.439  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 08:54:31.686  INFO 14528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 08:54:31.688  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 08:54:31.689  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-06-10 08:54:42.280  INFO 14528 --- [Thread-39] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 08:54:42.855  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 14528 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 08:54:42.855  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 08:54:43.018  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 08:54:43.019  INFO 14528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 08:54:43.019  INFO 14528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 08:54:43.080  INFO 14528 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-06-10 08:54:43.080  INFO 14528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 222 ms
+2021-06-10 08:54:43.110  INFO 14528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-06-10 08:54:43.122  INFO 14528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 08:54:43.132  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 08:54:43.135  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.335 seconds (JVM running for 608.842)
+2021-06-10 08:54:43.135  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 08:54:43.136  INFO 14528 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 08:54:43.136  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 08:54:45.165  INFO 14528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 08:54:45.167  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 08:54:45.168  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-10 08:55:59.957  INFO 14528 --- [Thread-44] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 08:56:00.859  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 14528 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 08:56:00.859  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 08:56:01.051  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 08:56:01.052  INFO 14528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 08:56:01.052  INFO 14528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 08:56:01.107  INFO 14528 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-06-10 08:56:01.107  INFO 14528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 246 ms
+2021-06-10 08:56:01.133  INFO 14528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-06-10 08:56:01.144  INFO 14528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 08:56:01.153  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 08:56:01.155  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.333 seconds (JVM running for 686.862)
+2021-06-10 08:56:01.156  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 08:56:01.156  INFO 14528 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 08:56:01.156  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 08:56:03.353  INFO 14528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 08:56:03.355  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 08:56:03.357  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-06-10 08:56:49.434  INFO 14528 --- [Thread-49] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 08:56:49.990  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 14528 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 08:56:49.990  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 08:56:50.125  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 08:56:50.126  INFO 14528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 08:56:50.126  INFO 14528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 08:56:50.207  INFO 14528 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-06-10 08:56:50.208  INFO 14528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 215 ms
+2021-06-10 08:56:50.265  INFO 14528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-06-10 08:56:50.289  INFO 14528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 08:56:50.306  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 08:56:50.308  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.372 seconds (JVM running for 736.016)
+2021-06-10 08:56:50.309  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 08:56:50.309  INFO 14528 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 08:56:50.310  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 08:58:09.204  INFO 14528 --- [Thread-54] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 08:58:09.975  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 14528 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 08:58:09.976  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 08:58:10.135  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 08:58:10.135  INFO 14528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 08:58:10.136  INFO 14528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 08:58:10.149  INFO 14528 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-06-10 08:58:10.150  INFO 14528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 169 ms
+2021-06-10 08:58:10.177  INFO 14528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-06-10 08:58:10.190  INFO 14528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 08:58:10.199  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 08:58:10.201  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.269 seconds (JVM running for 815.908)
+2021-06-10 08:58:10.201  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 08:58:10.202  INFO 14528 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 08:58:10.202  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 08:58:16.305  INFO 14528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 08:58:16.307  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 08:58:16.307  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-06-10 08:58:40.520  INFO 14528 --- [Thread-59] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 08:58:41.461  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 14528 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 08:58:41.463  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 08:58:41.585  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 08:58:41.586  INFO 14528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 08:58:41.586  INFO 14528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 08:58:41.601  INFO 14528 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-06-10 08:58:41.601  INFO 14528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 136 ms
+2021-06-10 08:58:41.624  INFO 14528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-06-10 08:58:41.636  INFO 14528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 08:58:41.645  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 08:58:41.647  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.231 seconds (JVM running for 847.354)
+2021-06-10 08:58:41.647  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 08:58:41.648  INFO 14528 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 08:58:41.648  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 08:58:43.924  INFO 14528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 08:58:43.926  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 08:58:43.927  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-06-10 08:59:06.894  INFO 14528 --- [Thread-64] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 08:59:07.648  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 14528 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 08:59:07.648  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 08:59:07.947  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 08:59:07.949  INFO 14528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 08:59:07.949  INFO 14528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 08:59:07.978  INFO 14528 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-06-10 08:59:07.978  INFO 14528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 326 ms
+2021-06-10 08:59:08.034  INFO 14528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-06-10 08:59:08.053  INFO 14528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 08:59:08.072  INFO 14528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 08:59:08.076  INFO 14528 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.477 seconds (JVM running for 873.783)
+2021-06-10 08:59:08.077  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 08:59:08.078  INFO 14528 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 08:59:08.079  INFO 14528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 08:59:09.191  INFO 14528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 08:59:09.192  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 08:59:09.194  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-10 08:59:36.991  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 4396 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 08:59:36.994  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 08:59:37.056  INFO 4396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-10 08:59:37.057  INFO 4396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-10 08:59:38.580  INFO 4396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 08:59:38.593  INFO 4396 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 08:59:38.593  INFO 4396 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 08:59:38.673  INFO 4396 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 08:59:38.674  INFO 4396 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1617 ms
+2021-06-10 08:59:39.026  INFO 4396 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-06-10 08:59:39.117  INFO 4396 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 08:59:39.160  INFO 4396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 08:59:39.171  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 2.73 seconds (JVM running for 3.269)
+2021-06-10 08:59:39.172  INFO 4396 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 08:59:39.175  INFO 4396 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 09:00:13.983  INFO 4396 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 09:00:13.985  INFO 4396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 09:00:13.990  INFO 4396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-06-10 09:00:48.700  INFO 4396 --- [Thread-6] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 09:00:49.526  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 4396 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 09:00:49.526  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 09:00:49.791  INFO 4396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 09:00:49.792  INFO 4396 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 09:00:49.792  INFO 4396 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 09:00:49.816  INFO 4396 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 09:00:49.816  INFO 4396 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 288 ms
+2021-06-10 09:00:49.891  INFO 4396 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-06-10 09:00:49.922  INFO 4396 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 09:00:49.938  INFO 4396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 09:00:49.942  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.477 seconds (JVM running for 74.04)
+2021-06-10 09:00:49.943  INFO 4396 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 09:00:49.945  INFO 4396 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 09:00:49.946  INFO 4396 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 09:00:53.591  INFO 4396 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 09:00:53.593  INFO 4396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 09:00:53.594  INFO 4396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-10 09:04:41.240  INFO 4396 --- [Thread-9] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 09:04:41.848  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 4396 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 09:04:41.849  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 09:04:42.047  INFO 4396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 09:04:42.047  INFO 4396 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 09:04:42.048  INFO 4396 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 09:04:42.066  INFO 4396 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 09:04:42.067  INFO 4396 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 216 ms
+2021-06-10 09:04:42.131  INFO 4396 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 09:04:42.145  INFO 4396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 09:04:42.148  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.339 seconds (JVM running for 306.246)
+2021-06-10 09:04:42.148  INFO 4396 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 09:04:42.150  INFO 4396 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 09:04:42.150  INFO 4396 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 09:04:46.209  INFO 4396 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 09:04:46.211  INFO 4396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 09:04:46.211  INFO 4396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-06-10 09:05:14.578  INFO 4396 --- [Thread-14] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 09:05:15.144  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 4396 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 09:05:15.145  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 09:05:15.333  INFO 4396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 09:05:15.335  INFO 4396 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 09:05:15.335  INFO 4396 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 09:05:15.356  INFO 4396 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 09:05:15.356  INFO 4396 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 209 ms
+2021-06-10 09:05:15.364  WARN 4396 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myJerseyConfig' defined in file [C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes\com\harish\rest\microservices\GreetingApp\MyJerseyConfig.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.harish.rest.microservices.GreetingApp.MyJerseyConfig]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The annotation @ApplicationPath must define the attribute value
+
+2021-06-10 09:05:15.365  INFO 4396 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-06-10 09:05:15.370  INFO 4396 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-10 09:05:15.397 ERROR 4396 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myJerseyConfig' defined in file [C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes\com\harish\rest\microservices\GreetingApp\MyJerseyConfig.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.harish.rest.microservices.GreetingApp.MyJerseyConfig]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The annotation @ApplicationPath must define the attribute value
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1316) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325) ~[spring-boot-2.5.0.jar:2.5.0]
+	at com.harish.rest.microservices.GreetingApp.GreetingAppApplication.main(GreetingAppApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.0.jar:2.5.0]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.harish.rest.microservices.GreetingApp.MyJerseyConfig]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The annotation @ApplicationPath must define the attribute value
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308) ~[spring-beans-5.3.7.jar:5.3.7]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The annotation @ApplicationPath must define the attribute value
+
+	at com.harish.rest.microservices.GreetingApp.MyJerseyConfig.<init>(MyJerseyConfig.java:9) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212) ~[spring-beans-5.3.7.jar:5.3.7]
+	... 24 common frames omitted
+
+2021-06-10 09:05:32.395  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 4396 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 09:05:32.396  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 09:05:32.579  INFO 4396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 09:05:32.579  INFO 4396 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 09:05:32.579  INFO 4396 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 09:05:32.594  INFO 4396 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-06-10 09:05:32.595  INFO 4396 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 193 ms
+2021-06-10 09:05:32.662  INFO 4396 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 09:05:32.678  INFO 4396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 09:05:32.680  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.348 seconds (JVM running for 356.778)
+2021-06-10 09:05:32.680  INFO 4396 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 09:05:32.681  INFO 4396 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 09:05:32.681  INFO 4396 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 09:05:44.183  INFO 4396 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 09:05:44.185  INFO 4396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 09:05:44.187  INFO 4396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-10 09:05:56.863  INFO 4396 --- [Thread-19] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 09:05:57.843  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 4396 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 09:05:57.843  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 09:05:58.207  INFO 4396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 09:05:58.208  INFO 4396 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 09:05:58.208  INFO 4396 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 09:05:58.247  INFO 4396 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-06-10 09:05:58.247  INFO 4396 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 400 ms
+2021-06-10 09:05:58.349  INFO 4396 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 09:05:58.372  INFO 4396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 09:05:58.377  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.6 seconds (JVM running for 382.476)
+2021-06-10 09:05:58.378  INFO 4396 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 09:05:58.380  INFO 4396 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 09:05:58.381  INFO 4396 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 09:05:58.444  INFO 4396 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 09:05:58.446  INFO 4396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 09:05:58.447  INFO 4396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-10 09:07:50.294  INFO 4396 --- [Thread-27] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 09:07:50.888  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 4396 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 09:07:50.889  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 09:07:51.080  INFO 4396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 09:07:51.080  INFO 4396 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 09:07:51.081  INFO 4396 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 09:07:51.101  INFO 4396 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-06-10 09:07:51.101  INFO 4396 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 208 ms
+2021-06-10 09:07:51.151  INFO 4396 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 09:07:51.160  INFO 4396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 09:07:51.163  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.339 seconds (JVM running for 495.261)
+2021-06-10 09:07:51.163  INFO 4396 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 09:07:51.163  INFO 4396 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 09:07:51.164  INFO 4396 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 09:07:54.419  INFO 4396 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 09:07:54.420  INFO 4396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 09:07:54.421  INFO 4396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-10 09:10:45.282  INFO 4396 --- [Thread-32] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 09:10:46.141  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 4396 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 09:10:46.141  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 09:10:46.297  INFO 4396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 09:10:46.298  INFO 4396 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 09:10:46.299  INFO 4396 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 09:10:46.316  INFO 4396 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-06-10 09:10:46.316  INFO 4396 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 172 ms
+2021-06-10 09:10:46.368  INFO 4396 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 09:10:46.378  INFO 4396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 09:10:46.380  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.266 seconds (JVM running for 670.478)
+2021-06-10 09:10:46.380  INFO 4396 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 09:10:46.381  INFO 4396 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 09:10:46.382  INFO 4396 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 09:10:51.976  INFO 4396 --- [Thread-37] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 09:10:52.725  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 4396 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 09:10:52.725  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 09:10:52.873  INFO 4396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 09:10:52.873  INFO 4396 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 09:10:52.875  INFO 4396 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 09:10:52.890  INFO 4396 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-06-10 09:10:52.890  INFO 4396 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 164 ms
+2021-06-10 09:10:52.948  INFO 4396 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 09:10:52.960  INFO 4396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 09:10:52.962  INFO 4396 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 0.262 seconds (JVM running for 677.061)
+2021-06-10 09:10:52.963  INFO 4396 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 09:10:52.964  INFO 4396 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 09:10:52.964  INFO 4396 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 09:10:53.986  INFO 4396 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 09:10:53.988  INFO 4396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 09:10:53.989  INFO 4396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-10 09:19:09.489  INFO 13940 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 13940 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 09:19:09.496  INFO 13940 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 09:19:09.557  INFO 13940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-10 09:19:09.557  INFO 13940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-10 09:19:11.305  INFO 13940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 09:19:11.321  INFO 13940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 09:19:11.321  INFO 13940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 09:19:11.452  INFO 13940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 09:19:11.453  INFO 13940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1895 ms
+2021-06-10 09:22:13.046  INFO 13940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 09:22:13.303  INFO 13940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 09:22:13.322  INFO 13940 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 184.685 seconds (JVM running for 186.427)
+2021-06-10 09:22:13.324  INFO 13940 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 09:22:13.327  INFO 13940 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 09:23:33.143  INFO 13904 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 13904 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 09:23:33.147  INFO 13904 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 09:23:33.207  INFO 13904 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-10 09:23:33.208  INFO 13904 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-10 09:23:34.532  INFO 13904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 09:23:34.544  INFO 13904 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 09:23:34.545  INFO 13904 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 09:23:34.822  INFO 13904 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 09:23:34.823  INFO 13904 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1615 ms
+2021-06-10 09:23:35.290  INFO 13904 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 09:23:35.330  INFO 13904 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 09:23:35.342  INFO 13904 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 2.787 seconds (JVM running for 3.324)
+2021-06-10 09:23:35.343  INFO 13904 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 09:23:35.345  INFO 13904 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 09:23:39.125  INFO 13904 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 09:23:39.126  INFO 13904 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 09:23:39.128  INFO 13904 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-10 09:29:36.039  INFO 15840 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 15840 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 09:29:36.045  INFO 15840 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 09:29:36.121  INFO 15840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-10 09:29:36.122  INFO 15840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-10 09:29:37.851  INFO 15840 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 09:29:37.869  INFO 15840 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 09:29:37.870  INFO 15840 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 09:29:37.988  INFO 15840 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 09:29:37.988  INFO 15840 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1865 ms
+2021-06-10 09:29:38.614  WARN 15840 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-06-10 09:29:38.646  WARN 15840 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-06-10 09:29:38.654  INFO 15840 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-06-10 09:29:38.677  INFO 15840 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-10 09:29:38.712 ERROR 15840 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-06-10 09:51:44.542  INFO 1428 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 1428 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 09:51:44.546  INFO 1428 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 09:51:44.586  INFO 1428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-10 09:51:44.586  INFO 1428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-10 09:51:45.620  INFO 1428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 09:51:45.630  INFO 1428 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 09:51:45.630  INFO 1428 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 09:51:45.715  INFO 1428 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 09:51:45.715  INFO 1428 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1128 ms
+2021-06-10 09:51:46.242  INFO 1428 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 09:51:46.312  INFO 1428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 09:51:46.323  INFO 1428 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 2.455 seconds (JVM running for 3.778)
+2021-06-10 09:51:46.324  INFO 1428 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 09:51:46.326  INFO 1428 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 09:52:04.705  INFO 1428 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 09:52:04.707  INFO 1428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 09:52:04.709  INFO 1428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-06-10 09:52:59.479  INFO 1428 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-06-10 09:52:59.479  INFO 1428 --- [RMI TCP Connection(9)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 09:53:16.192  INFO 10160 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Starting GreetingAppApplication using Java 11.0.8 on DESKTOP-NRSB0CR with PID 10160 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 09:53:16.200  INFO 10160 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : The following profiles are active: dev
+2021-06-10 09:53:16.271  INFO 10160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-10 09:53:16.272  INFO 10160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-10 09:53:18.185  INFO 10160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 09:53:18.205  INFO 10160 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 09:53:18.205  INFO 10160 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 09:53:18.348  INFO 10160 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 09:53:18.349  INFO 10160 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2076 ms
+2021-06-10 09:58:08.146  INFO 10160 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 09:58:44.140  INFO 10160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 09:58:44.155  INFO 10160 --- [restartedMain] c.h.r.m.G.GreetingAppApplication         : Started GreetingAppApplication in 328.602 seconds (JVM running for 329.775)
+2021-06-10 09:58:44.157  INFO 10160 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 09:58:44.161  INFO 10160 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 10:16:07.292  INFO 5796 --- [restartedMain] c.h.rest.microservices.jersey.HelloApp   : Starting HelloApp using Java 11.0.8 on DESKTOP-NRSB0CR with PID 5796 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 10:16:07.295  INFO 5796 --- [restartedMain] c.h.rest.microservices.jersey.HelloApp   : The following profiles are active: dev
+2021-06-10 10:16:07.319  INFO 5796 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Harish Kumar\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar
+2021-06-10 10:16:07.319  INFO 5796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-10 10:16:07.319  INFO 5796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-10 10:16:07.454  WARN 5796 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+2021-06-10 10:16:07.769 ERROR 5796 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:163) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:144) ~[spring-boot-2.5.0.jar:2.5.0]
+	at com.harish.rest.microservices.jersey.HelloApp.main(HelloApp.java:8) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.0.jar:2.5.0]
+Caused by: org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:210) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160) ~[spring-boot-2.5.0.jar:2.5.0]
+	... 12 common frames omitted
+
+2021-06-10 10:18:22.428  INFO 15372 --- [restartedMain] c.h.rest.microservices.jersey.HelloApp   : Starting HelloApp using Java 11.0.8 on DESKTOP-NRSB0CR with PID 15372 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 10:18:22.431  INFO 15372 --- [restartedMain] c.h.rest.microservices.jersey.HelloApp   : The following profiles are active: dev
+2021-06-10 10:18:22.470  INFO 15372 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Harish Kumar\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/Harish%20Kumar/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar
+2021-06-10 10:18:22.470  INFO 15372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-10 10:18:22.470  INFO 15372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-10 10:18:23.318  INFO 15372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 10:18:23.328  INFO 15372 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 10:18:23.328  INFO 15372 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 10:18:23.404  INFO 15372 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 10:18:23.404  INFO 15372 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 933 ms
+2021-06-10 10:18:23.780  INFO 15372 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 10:18:23.815  INFO 15372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 10:18:23.825  INFO 15372 --- [restartedMain] c.h.rest.microservices.jersey.HelloApp   : Started HelloApp in 1.841 seconds (JVM running for 3.322)
+2021-06-10 10:18:23.827  INFO 15372 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 10:18:23.829  INFO 15372 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 10:18:32.261  WARN 15372 --- [http-nio-8080-exec-1] o.g.jersey.server.wadl.WadlFeature       : JAXBContext implementation could not be found. WADL feature is disabled.
+2021-06-10 10:21:04.327  INFO 15372 --- [Thread-6] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 10:21:05.088  INFO 15372 --- [restartedMain] c.h.rest.microservices.jersey.HelloApp   : Starting HelloApp using Java 11.0.8 on DESKTOP-NRSB0CR with PID 15372 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 10:21:05.089  INFO 15372 --- [restartedMain] c.h.rest.microservices.jersey.HelloApp   : The following profiles are active: dev
+2021-06-10 10:21:05.366  INFO 15372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 10:21:05.367  INFO 15372 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 10:21:05.367  INFO 15372 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 10:21:05.391  INFO 15372 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 10:21:05.391  INFO 15372 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 297 ms
+2021-06-10 10:21:05.452  INFO 15372 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 10:21:05.465  INFO 15372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 10:21:05.469  INFO 15372 --- [restartedMain] c.h.rest.microservices.jersey.HelloApp   : Started HelloApp in 0.414 seconds (JVM running for 164.965)
+2021-06-10 10:21:05.470  INFO 15372 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 10:21:05.472  INFO 15372 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 10:21:05.472  INFO 15372 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 10:21:14.443  INFO 15372 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-10 10:21:14.445  INFO 15372 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-10 10:21:14.447  INFO 15372 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-06-10 10:21:32.706  INFO 15372 --- [Thread-9] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 10:21:33.458  INFO 15372 --- [restartedMain] c.h.rest.microservices.jersey.HelloApp   : Starting HelloApp using Java 11.0.8 on DESKTOP-NRSB0CR with PID 15372 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 10:21:33.458  INFO 15372 --- [restartedMain] c.h.rest.microservices.jersey.HelloApp   : The following profiles are active: dev
+2021-06-10 10:21:33.612  INFO 15372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 10:21:33.612  INFO 15372 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 10:21:33.613  INFO 15372 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 10:21:33.635  INFO 15372 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 10:21:33.635  INFO 15372 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 174 ms
+2021-06-10 10:21:33.693  INFO 15372 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 10:21:33.707  INFO 15372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 10:21:33.711  INFO 15372 --- [restartedMain] c.h.rest.microservices.jersey.HelloApp   : Started HelloApp in 0.296 seconds (JVM running for 193.207)
+2021-06-10 10:21:33.711  INFO 15372 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 10:21:33.713  INFO 15372 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 10:21:33.713  INFO 15372 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 10:21:37.103  WARN 15372 --- [http-nio-8080-exec-1] o.g.jersey.server.wadl.WadlFeature       : JAXBContext implementation could not be found. WADL feature is disabled.
+2021-06-10 10:23:43.224  INFO 15372 --- [Thread-14] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 10:23:44.040  INFO 15372 --- [restartedMain] c.h.rest.microservices.jersey.HelloApp   : Starting HelloApp using Java 11.0.8 on DESKTOP-NRSB0CR with PID 15372 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 10:23:44.041  INFO 15372 --- [restartedMain] c.h.rest.microservices.jersey.HelloApp   : The following profiles are active: dev
+2021-06-10 10:23:44.300  INFO 15372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 10:23:44.302  INFO 15372 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 10:23:44.302  INFO 15372 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 10:23:44.319  INFO 15372 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 10:23:44.319  INFO 15372 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 275 ms
+2021-06-10 10:23:44.372  INFO 15372 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 10:23:44.386  INFO 15372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 10:23:44.389  INFO 15372 --- [restartedMain] c.h.rest.microservices.jersey.HelloApp   : Started HelloApp in 0.421 seconds (JVM running for 323.886)
+2021-06-10 10:23:44.390  INFO 15372 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 10:23:44.392  INFO 15372 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 10:23:44.392  INFO 15372 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-10 10:23:57.180  INFO 15372 --- [Thread-19] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-10 10:23:57.805  INFO 15372 --- [restartedMain] c.h.rest.microservices.jersey.HelloApp   : Starting HelloApp using Java 11.0.8 on DESKTOP-NRSB0CR with PID 15372 (C:\Users\Harish Kumar\git\spring-microservices\GreetingApp\target\classes started by Harish Kumar in C:\Users\Harish Kumar\git\spring-microservices\GreetingApp)
+2021-06-10 10:23:57.806  INFO 15372 --- [restartedMain] c.h.rest.microservices.jersey.HelloApp   : The following profiles are active: dev
+2021-06-10 10:23:58.025  INFO 15372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-10 10:23:58.026  INFO 15372 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-10 10:23:58.026  INFO 15372 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-10 10:23:58.047  INFO 15372 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-10 10:23:58.047  INFO 15372 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 237 ms
+2021-06-10 10:23:58.099  INFO 15372 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-10 10:23:58.112  INFO 15372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-10 10:23:58.117  INFO 15372 --- [restartedMain] c.h.rest.microservices.jersey.HelloApp   : Started HelloApp in 0.381 seconds (JVM running for 337.613)
+2021-06-10 10:23:58.117  INFO 15372 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-10 10:23:58.119  INFO 15372 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-10 10:23:58.119  INFO 15372 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
